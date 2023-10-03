@@ -96,34 +96,32 @@ const dato1 = 3;
 const dato2 = 6;
 const dato3 = 9;
 
-const dato = [3, 6, 9];
+if (dato1 > dato2) {
+  console.log("dato1 più grande di dato2");
+} else if (dato1 < dato2) {
+  console.log("dato2 è più grande di dato1");
+} else {
+  console.log("sono uguali");
+}
+// Console dice che dato2 è più grande di dato1
 
-// if (dato1 > dato2) {
-//   console.log("dato1 più grande di dato2");
-// } else if (dato1 < dato2) {
-//   console.log("dato2 è più grande di dato1");
-// } else {
-//   console.log("sono uguali");
-// }
-// // Console dice che dato2 è più grande di dato1
+if (dato2 > dato3) {
+  console.log("dato2 più grande di dato3");
+} else if (dato2 < dato3) {
+  console.log("dato3 è più grande di dato2");
+} else {
+  console.log("sono uguali");
+}
+// Console dice che dato3 è più grande di dato2
 
-// if (dato2 > dato3) {
-//   console.log("dato2 più grande di dato3");
-// } else if (dato2 < dato3) {
-//   console.log("dato3 è più grande di dato2");
-// } else {
-//   console.log("sono uguali");
-// }
-// // Console dice che dato3 è più grande di dato2
-
-// if (dato1 > dato3) {
-//   console.log("dato1 più grande di dato3");
-// } else if (dato1 < dato3) {
-//   console.log("dato3 è più grande di dato1");
-// } else {
-//   console.log("sono uguali");
-// }
-// // Console dice che dat3 è più grande di dato1
+if (dato1 > dato3) {
+  console.log("dato1 più grande di dato3");
+} else if (dato1 < dato3) {
+  console.log("dato3 è più grande di dato1");
+} else {
+  console.log("sono uguali");
+}
+// Console dice che dat3 è più grande di dato1
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
